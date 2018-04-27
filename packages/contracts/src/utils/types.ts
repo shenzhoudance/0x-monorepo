@@ -102,6 +102,7 @@ export enum ContractName {
     TestLibBytes = 'TestLibBytes',
     Authorizable = 'Authorizable',
     Whitelist = 'Whitelist',
+    Forwarder = 'Forwarder',
 }
 
 export interface SignedTransaction {
