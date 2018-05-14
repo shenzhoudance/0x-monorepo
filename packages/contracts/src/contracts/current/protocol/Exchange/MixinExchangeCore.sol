@@ -386,6 +386,7 @@ contract MixinExchangeCore is
         return fillResults;
     }
 
+    uint constant MAX_UINT = 2**256 - 1
     /// @dev Calculates the sum of values already filled and cancelled for a given order.
     /// @param orderHash The Keccak-256 hash of the given order.
     /// @return Sum of values already filled.
